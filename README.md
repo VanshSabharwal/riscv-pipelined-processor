@@ -2,6 +2,8 @@
 
 ## Overview
 A 5-stage pipelined RISC-V processor written in Verilog. It supports the RV32I instruction set and includes hazard detection, forwarding logic, and basic branching.
+![image](https://github.com/user-attachments/assets/96b64df0-5c53-4045-80b5-19f98da577d6)
+
 
 ## Features
 - Instruction Fetch, Decode, Execute, Memory, Writeback stages
@@ -26,6 +28,10 @@ A 5-stage pipelined RISC-V processor written in Verilog. It supports the RV32I i
 1. Compile all `.v` files.
 2. Include `regfile_init.hex` and `rvp.hex` as memory files
 3. Run the testbench: `tb.v`
+
+## Simulation
+![image](https://github.com/user-attachments/assets/99dec444-cc2c-46c6-820f-8e487a1e46ca)
+
 
 
 ## Author
