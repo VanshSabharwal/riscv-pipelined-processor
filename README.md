@@ -24,7 +24,8 @@ A 5-stage pipelined RISC-V processor written in Verilog. It supports the RV32I i
 
 ## How to Simulate
 1. Compile all `.v` files.
-2. Run the testbench: `tb.v`
+2. Include `regfile_init.hex` and `rvp.hex` as memory files
+3. Run the testbench: `tb.v`
 
 
 ## Author
